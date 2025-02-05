@@ -8,7 +8,7 @@ function SideNav() {
           <NavLink to={"dashboard"}>Dashboard</NavLink>
         </li>
         <li>
-          <NavLink to={"/shop"}>Shop</NavLink>
+          <NavLink to={"shop"}>Shop</NavLink>
         </li>
       </ul>
     </div>
