@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact/Contact";
 import Admin from "./Content/admin/Admin";
 import Dashboard from "./Content/admin/Pages/Dashboard";
 import Shop from "./Content/admin/Pages/Shop";
+import HomeAdmin from "./Content/admin/TopNAv/Pages/HomeAdmin";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/admin" element={<Admin />}>
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="shop" element={<Shop />} />
+          <Route path="homeAdmin" element={<HomeAdmin />} />
         </Route>
       </Routes>
     </div>
