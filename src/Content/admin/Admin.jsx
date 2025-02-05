@@ -6,10 +6,10 @@ function Admin() {
   return (
     <>
       <div className="h-[100px] bg-sky-200">
-        <TopNav></TopNav>
+        <TopNav />
       </div>
       <div className="flex h-[calc(100vh-100px)]">
-        <div className="w-[200] bg-amber-500">
+        <div className="w-[200px] bg-blue-500 text-white">
           <SideNav />
         </div>
         <div>
