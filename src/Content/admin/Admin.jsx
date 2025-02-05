@@ -1,5 +1,11 @@
+import SideNav from "./SideNavPages/SideNav";
+
 function Admin() {
-  return <div>Admin</div>;
+  return (
+    <div>
+      <SideNav />
+    </div>
+  );
 }
 
 export default Admin;
